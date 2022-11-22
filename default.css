@@ -96,12 +96,12 @@ body {
 
 .section--relative {
     position: relative;
+
 }
 
 .section--absolute {
 
     position: absolute;
-
 }
 
 .section--img {
@@ -113,7 +113,7 @@ body {
 }
 
 .section-1__text--container {
-    gap: 2rem;
+    gap: 1rem;
     flex-direction: column;
     text-align: center;
     width: 80%;

@@ -2,8 +2,8 @@
 
     /* default */
     .btn {
-        width: 25.7rem;
-        height: 5.2rem;
+        width: 22.7rem;
+        height: 4.2rem;
         font-size: 1.2rem;
     }
 
@@ -12,7 +12,7 @@
     }
 
     .section__h1--1 {
-        font-size: 3rem;
+        font-size: 2.5rem;
         line-height: 3rem;
     }
 
@@ -58,8 +58,11 @@
 
     .section-1__text--container {
         width: 50%;
-        padding: 3rem;
+        padding-left: 3rem;
+        padding-right: 3rem;
+        gap: 2rem;
     }
+
 
     /* header */
     .header {
@@ -76,12 +79,13 @@
         flex-direction: row;
         align-items: center;
         justify-content: space-between;
-        align-self: center;
+
     }
 
     .header__nav--list {
         justify-content: space-between;
         font-size: 1.7rem;
+
     }
 
 
@@ -116,9 +120,25 @@
 
     }
 
+    .section-3 {
+        height: 80%;
+    }
+
+    .section-3__content--container {
+
+        gap: 4rem;
+
+    }
+
     /* section-4 */
     .section-4 {
         gap: 4rem;
+    }
+
+    .section-4__card--container {
+
+        gap: 0;
+
     }
 
     /* footer */

@@ -30,8 +30,8 @@
 
      .section--p {
          letter-spacing: 0.2px;
-         font-size: 1.7rem;
-         line-height: 1.7rem;
+         font-size: 2rem;
+         line-height: 2rem;
          font-weight: lighter;
      }
 
@@ -44,9 +44,16 @@
      }
 
      .section-1__text--container {
-         gap: 3rem;
+         justify-content: space-around;
+         padding-left: 5rem;
+         padding-right: 5rem;
+         gap: 7rem;
 
-         padding: 3rem;
+
+     }
+
+     .section-3 {
+         height: 100%;
      }
 
      .section-3__img--container {

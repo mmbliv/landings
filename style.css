@@ -104,8 +104,8 @@
     flex-direction: column;
     height: 100%;
     text-align: center;
-    gap: 4rem;
-    width: 70%;
+    gap: 2rem;
+    width: 80%;
 
 }
 
@@ -123,6 +123,8 @@
 /* section-4 */
 .section-4__card--container {
     width: 100%;
+    gap: 2rem;
+    flex-direction: column;
 }
 
 .section-4 {
