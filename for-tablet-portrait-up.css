@@ -7,6 +7,10 @@
         font-size: 1.2rem;
     }
 
+    .grid {
+        grid-template-columns: 1fr 1fr;
+    }
+
     .section__h1--1 {
         font-size: 3rem;
         line-height: 3rem;
@@ -80,6 +84,38 @@
         width: 80%;
     }
 
-    /* section-1 */
+    /* section-2 */
+    /* .section-2 {
+        flex-direction: column;
+        text-align: center;
+        gap: 3rem;
+        width: 80%;
+    } */
+
+    .section-2__card--container {
+        /* flex-direction: column; */
+        gap: 2rem;
+        /* flex-wrap: wrap;
+        flex-direction: row; */
+
+    }
+
+    .section-2__card__img--container {
+        width: 6rem;
+        height: 6rem;
+    }
+
+    .section-2--card {
+
+        padding: 4rem;
+        gap: 1.5rem;
+        /* width: 45%; */
+
+    }
+
+    .section-2__card--img {
+        height: 100%;
+        width: 100%;
+    }
 
 }

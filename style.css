@@ -61,7 +61,7 @@
 }
 
 .section-2__card--container {
-    flex-direction: column;
+
     gap: 2rem;
 
 }
@@ -81,6 +81,7 @@
     border: 0.5px solid #CECECE;
     padding: 3rem;
     gap: 1rem;
+
 
 }
 

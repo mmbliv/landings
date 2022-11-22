@@ -24,6 +24,11 @@ body {
 
 }
 
+.grid {
+    display: grid;
+
+}
+
 .flex {
     display: flex;
     justify-content: center;

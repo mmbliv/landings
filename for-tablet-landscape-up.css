@@ -5,6 +5,10 @@
          font-size: 1.4rem;
      }
 
+     .grid {
+         grid-template-columns: 1fr 1fr 1fr;
+     }
+
      .header__nav--container {
          width: 100%;
      }
