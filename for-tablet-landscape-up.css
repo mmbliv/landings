@@ -42,7 +42,11 @@
          gap: 3rem;
 
          padding: 3rem;
+     }
 
+     .section-3__img--container {
+         height: 8rem;
+         width: 8rem;
 
      }
 
