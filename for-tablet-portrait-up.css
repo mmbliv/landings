@@ -16,10 +16,19 @@
         line-height: 3rem;
     }
 
+    .section__h2--1 {
+        color: #000000;
+        font-size: 1.7rem;
+        line-height: 1.7rem;
+        font-weight: lighter;
+        font-family: 'Lato', sans-serif;
+
+    }
+
     .section--p {
         letter-spacing: 0.12px;
-        font-size: 2rem;
-        line-height: 2rem;
+        font-size: 1.5rem;
+        line-height: 1.5rem;
         font-weight: lighter;
     }
 

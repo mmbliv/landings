@@ -68,6 +68,14 @@ body {
 
 }
 
+.section__h2--1 {
+    color: #000000;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    font-weight: lighter;
+    font-family: 'Lato', sans-serif;
+
+}
 
 .section--p {
     letter-spacing: 0.09px;
@@ -76,7 +84,9 @@ body {
     line-height: 1.5rem;
 }
 
-
+.text--write {
+    color: var(--write-color);
+}
 
 .section-img--container {
     width: 100%;

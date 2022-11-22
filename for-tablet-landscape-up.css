@@ -9,6 +9,27 @@
          grid-template-columns: 1fr 1fr 1fr;
      }
 
+     .section__h1--1 {
+         font-size: 3.5rem;
+         line-height: 3.5rem;
+     }
+
+     .section__h2--1 {
+         color: #000000;
+         font-size: 2.2rem;
+         line-height: 2.2rem;
+         font-weight: lighter;
+         font-family: 'Lato', sans-serif;
+
+     }
+
+     .section--p {
+         letter-spacing: 0.2px;
+         font-size: 1.7rem;
+         line-height: 1.7rem;
+         font-weight: lighter;
+     }
+
      .header__nav--container {
          width: 100%;
      }
