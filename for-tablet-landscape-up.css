@@ -13,5 +13,12 @@
          font-size: 9rem;
      }
 
+     .section-1__text--container {
+         gap: 3rem;
+
+         padding: 3rem;
+
+
+     }
 
  }

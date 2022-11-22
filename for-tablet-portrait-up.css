@@ -1,5 +1,53 @@
 @media (min-width: 600px) {
 
+    /* default */
+    .btn {
+        width: 25.7rem;
+        height: 5.2rem;
+        font-size: 1.2rem;
+    }
+
+    .section__h1--1 {
+        font-size: 3rem;
+        line-height: 3rem;
+    }
+
+    .section--p {
+        letter-spacing: 0.12px;
+        font-size: 2rem;
+        line-height: 2rem;
+        font-weight: lighter;
+    }
+
+
+
+    .section-img--container {
+        width: 50%;
+    }
+
+    .section--relative {
+        position: static;
+    }
+
+    .section--absolute {
+
+        position: static;
+
+    }
+
+    .section--img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+
+    }
+
+    .section-1__text--container {
+        width: 50%;
+        padding: 3rem;
+    }
+
+    /* header */
     .header {
         padding: 5rem;
 
@@ -31,4 +79,7 @@
         font-size: 2rem;
         width: 80%;
     }
+
+    /* section-1 */
+
 }
