@@ -121,12 +121,27 @@
 }
 
 /* section-4 */
+.section-4__card--container {
+    width: 100%;
+}
+
 .section-4 {
     flex-direction: column;
     gap: 2rem;
     text-align: center;
+    width: 100%;
 }
 
 .section-4--subtitle {
     width: 60%;
+}
+
+/* footer */
+.footer {
+    height: 3rem;
+    width: 100%;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: var(--blue-color);
+
 }

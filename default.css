@@ -42,6 +42,7 @@ body {
 
 .list {
     list-style: none;
+    text-transform: capitalize;
 }
 
 .btn {
