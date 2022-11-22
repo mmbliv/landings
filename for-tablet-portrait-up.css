@@ -1,0 +1,34 @@
+@media (min-width: 600px) {
+
+    .header {
+        padding: 5rem;
+
+    }
+
+    .header__nav--header-text {
+        font-size: 3.5rem;
+
+    }
+
+    .header__nav--container {
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        align-self: center;
+    }
+
+    .header__nav--list {
+        justify-content: space-between;
+        font-size: 2rem;
+    }
+
+
+    .header__content--header-text {
+        font-size: 6rem;
+    }
+
+    .header__content--subheader-text {
+        font-size: 2rem;
+        width: 80%;
+    }
+}

@@ -1,0 +1,17 @@
+ @media (min-width: 900px) {
+     .btn {
+         width: 30.7rem;
+         height: 7.2rem;
+         font-size: 1.4rem;
+     }
+
+     .header__nav--container {
+         width: 100%;
+     }
+
+     .header__content--header-text {
+         font-size: 9rem;
+     }
+
+
+ }

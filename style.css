@@ -30,6 +30,10 @@ body {
     align-items: center;
 }
 
+.center {
+    margin: 0 auto;
+}
+
 .list {
     list-style: none;
 }
@@ -53,6 +57,10 @@ body {
     background-position: bottom;
     height: 100vh;
     padding: 2rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: space-between;
+    flex-direction: column;
 }
 
 .header__nav--header-text {
@@ -66,21 +74,29 @@ body {
     flex-direction: column;
     align-items: flex-start;
     gap: 2rem;
+    align-self: start;
+
 }
 
 .header__nav--list {
-    gap: 3rem;
+    gap: 2rem;
     color: #D9F0FF;
     font-size: 1rem;
+
+
 
 }
 
 .header__content--container {
     flex-direction: column;
-    padding-top: 50%;
+    width: 80%;
     gap: 3rem;
     text-align: center;
     color: var(--write-color);
+    height: 80%;
+    position: relative;
+    top: -10%;
+
 }
 
 .header__content--header-text {
