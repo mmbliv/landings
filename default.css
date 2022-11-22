@@ -26,6 +26,7 @@ body {
 
 .grid {
     display: grid;
+    gap: 2rem;
 
 }
 
