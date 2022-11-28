@@ -1,6 +1,6 @@
 /* header */
 .header {
-    background-image: linear-gradient(hsla(240, 100%, 50%, 0.22), hsla(240, 100%, 50%, 0.22)), url(./assets/png/hero.png);
+    background-image: url(./assets/png/hero.png);
     background-position: bottom;
     height: 100vh;
     padding: 2rem;
@@ -8,6 +8,17 @@
     background-size: cover;
     justify-content: space-between;
     flex-direction: column;
+    position: relative;
+    z-index: 1;
+}
+
+.header::after {
+    content: '';
+    inset: 0;
+    position: absolute;
+    background-color: hsla(240, 100%, 50%, 0.22);
+    mix-blend-mode: multiply;
+    z-index: -1;
 }
 
 .header__nav--header-text {
@@ -22,7 +33,6 @@
     align-items: flex-start;
     gap: 2rem;
     align-self: start;
-
 }
 
 .header__nav--list {
