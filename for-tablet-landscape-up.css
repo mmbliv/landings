@@ -15,12 +15,8 @@
      }
 
      .section__h2--1 {
-         color: #000000;
          font-size: 2.2rem;
          line-height: 2.2rem;
-         font-weight: lighter;
-         font-family: 'Lato', sans-serif;
-
      }
 
      .section-container {
@@ -32,7 +28,8 @@
          letter-spacing: 0.2px;
          font-size: 2.3rem;
          line-height: 2.5rem;
-         font-weight: lighter;
+
+
      }
 
      .header__nav--container {
