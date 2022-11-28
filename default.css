@@ -63,7 +63,7 @@ body {
 
 .section__h1--1 {
     color: #000000;
-    font-size: 2rem;
+    font-size: 2.4rem;
     line-height: 3rem;
     font-weight: lighter;
     font-family: 'Lato', sans-serif;
@@ -73,17 +73,18 @@ body {
 .section__h2--1 {
     color: #000000;
     font-size: 1.5rem;
-    line-height: 1.5rem;
+    line-height: 1.7rem;
     font-weight: lighter;
     font-family: 'Lato', sans-serif;
+    letter-spacing: 1px;
 
 }
 
 .section--p {
     letter-spacing: 0.09px;
-    font-size: 1rem;
+    font-size: 1.3rem;
     color: #000000;
-    line-height: 1.5rem;
+    line-height: 1.7rem;
 }
 
 .text--write {
